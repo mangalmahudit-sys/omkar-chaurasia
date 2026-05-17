@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Omkar Chaurasia — Editor & Motion Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- FLOATING AVAILABILITY BADGE -->
+<div class="avail-badge">
+  <img class="avail-avatar" src="https://pps.services.adobe.com/api/profile/F4925E8C5E2DA5AE0A495EEE@AdobeID/image/c2817132-9940-4aa7-a7cf-050923af1e13/276" alt="Omkar" />
+  <div class="avail-text">
+    <div class="avail-name">Omkar Chaurasia</div>
+    <div class="avail-status"><span class="avail-dot"></span>Available for hire · Now</div>
+  </div>
+  <a href="https://api.whatsapp.com/send/?phone=919867315087&text&type=phone_number&app_absent=0" class="avail-btn">Hire Omkar</a>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">O<span>.</span>C</div>
+  <div class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#software">Software</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#connect">Contact</a>
+  </div>
+  <a href="https://api.whatsapp.com/send/?phone=919867315087&text&type=phone_number&app_absent=0" class="nav-hire">Hire Me</a>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section id="hero">
+  <div class="hero-bg"><img src="hero.jpg" alt=""></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Available · Kalyan-Dombivali, India</div>
+    <h1 class="hero-name">
+      Omkar<br /><em>Chaurasia</em>
+    </h1>
+    <div class="hero-skills">
+      <span class="hero-skill-tag">✦ Video Editing</span>
+      <span class="hero-skill-tag">✦ Motion Design</span>
+      <span class="hero-skill-tag">✦ Logo Design</span>
+      <span class="hero-skill-tag">✦ VFX</span>
+      <span class="hero-skill-tag">✦ Color Grading</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#connect" class="btn-hire">Hire Me →</a>
+      <a href="#work" class="btn-reel">
+        <div class="reel-play">▶</div>
+        View My Work
+      </a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">200+</div>
+      <div class="stat-label">Projects Done</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">6+</div>
+      <div class="stat-label">Months Exp.</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">30+</div>
+      <div class="stat-label">Happy Clients</div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- ===================== WORK ===================== -->
+<section id="work">
+  <div class="section-label">Selected Work</div>
+  <div class="section-title reveal">Crafted <span>Frames</span><br />& Moments</div>
+  <p class="section-sub reveal reveal-delay-1">From cinematic reels to brand TVCs and podcast visuals — every frame is intentional.</p>
+
+  <div class="work-tabs reveal reveal-delay-2">
+    <button class="work-tab active" data-filter="reels">Reels</button>
+    <button class="work-tab" data-filter="tvcs">TVCs</button>
+    <button class="work-tab" data-filter="podcast">Podcast</button>
+  </div>
+
+  <div class="work-grid" id="workGrid">
+
+    <!-- REELS -->
+    <div class="work-card reveal" data-cat="reels">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/reels/reel1.mp4" type="video/mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Reel</div>
+        <div class="work-card-title">Urban Stories</div>
+        <div class="work-card-desc">Street-style cinematic cut · 60s</div>
+      </div>
+      <a href="https://www.instagram.com/reel/DXjAK4ek3Sr/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==." target="_blank" class="work-card-link">↗</a>
+    </div>
+
+    <div class="work-card reveal reveal-delay-1" data-cat="reels">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/reels/reel2.mp4" type="video/mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Reel</div>
+        <div class="work-card-title">Brand Vibes</div>
+        <div class="work-card-desc">Fashion brand highlight · 30s</div>
+      </div>
+      <a href="https://www.instagram.com/reel/DXbukZ7NC_Y/?igsh=MXFkNjFhNThseDJiMg==" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+    <div class="work-card reveal reveal-delay-2" data-cat="reels">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/reels/reel3.mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Reel</div>
+        <div class="work-card-title">Dynamic Cut</div>
+        <div class="work-card-desc">Music-sync kinetic reel · 45s</div>
+      </div>
+      <a href="https://www.instagram.com/reel/DXRhF8gDKYa/?igsh=ZDUzajJ0emdzd2Rh" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+     <div class="work-card reveal reveal-delay-2" data-cat="reels">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/reels/reel4.mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Reel</div>
+        <div class="work-card-title">Dynamic Cut</div>
+        <div class="work-card-desc">Music-sync kinetic reel · 45s</div>
+      </div>
+      <a href="https://www.instagram.com/reel/DXb-5AaDMSh/?igsh=MWZkZGVhY3lhNWJuYQ==" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+    <div class="work-card reveal reveal-delay-2" data-cat="reels">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/reels/reel5.mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Reel</div>
+        <div class="work-card-title">Dynamic Cut</div>
+        <div class="work-card-desc">Music-sync kinetic reel · 45s</div>
+      </div>
+      <a href="https://www.instagram.com/p/DXdsV3KiUyO/" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+    <div class="work-card reveal reveal-delay-2" data-cat="reels">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/reels/reel6.mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Reel</div>
+        <div class="work-card-title">Dynamic Cut</div>
+        <div class="work-card-desc">Music-sync kinetic reel · 45s</div>
+      </div>
+      <a href="https://www.instagram.com/p/DW6LOL3CI4s/" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+    <!-- TVCs -->
+    <div class="work-card reveal" data-cat="tvcs" style="display:none">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/tvc/tvc1.mp4" type="video/mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">TVC</div>
+        <div class="work-card-title">Product Launch</div>
+        <div class="work-card-desc">30-sec commercial spot</div>
+      </div>
+      <a href="https://www.instagram.com/reel/DVCDdK1jssK/?igsh=MWU5aDRucnNjNnlyaQ==" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+   
+
+    
+
+    <!-- PODCAST -->
+    <div class="work-card reveal" data-cat="podcast" style="display:none">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/podcast/pod1.mp4" type="video/mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Podcast</div>
+        <div class="work-card-title">Tech Talks</div>
+        <div class="work-card-desc">Animated podcast visuals</div>
+      </div>
+      <a href="https://www.instagram.com/reel/DWXIKqiEqTZ/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+    <div class="work-card reveal reveal-delay-1" data-cat="podcast" style="display:none">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+         
+          <source src="/vid/podcast/pod2.mp4" type="video/mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Podcast</div>
+        <div class="work-card-title">Life Stories</div>
+        <div class="work-card-desc">Episode thumbnail series</div>
+      </div>
+      <a href="https://www.instagram.com/reel/DWbC01pkqbl/?igsh=MTJ0OWhjYnFxbHB4YQ==" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+    <div class="work-card reveal reveal-delay-2" data-cat="podcast" style="display:none">
+      <div class="video-wrap">
+        <video loop muted playsinline preload="metadata"
+          
+          <source src="/vid/podcast/pod3.mp4" type="video/mp4" />
+        </video>
+        <div class="vid-controls">
+          <button class="vid-btn play-pause" aria-label="Play/Pause">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" style="display:none"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="vid-progress-wrap">
+            <div class="vid-progress-bar"><div class="vid-progress-fill"></div></div>
+          </div>
+          <button class="vid-btn mute-btn" aria-label="Mute/Unmute">
+            <svg class="icon-mute" viewBox="0 0 24 24"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <svg class="icon-unmute" viewBox="0 0 24 24" style="display:none"><polygon points="11,5 6,9 2,9 2,15 6,15 11,19"/><path d="M15.54,8.46a5,5,0,0,1,0,7.07"/><path d="M19.07,4.93a10,10,0,0,1,0,14.14"/></svg>
+          </button>
+          <span class="vid-time">0:00</span>
+        </div>
+      </div>
+      <div class="work-card-overlay">
+        <div class="work-card-tag">Podcast</div>
+        <div class="work-card-title">Motion Opener</div>
+        <div class="work-card-desc">Kinetic intro animation</div>
+      </div>
+      <a href="https://www.instagram.com/p/DXOfyLkta51/" target="_blank" class="work-card-link">↗</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section id="skills">
+  <div class="section-label">What I Do</div>
+  <div class="section-title reveal">Creative <span>Arsenal</span></div>
+  <p class="section-sub reveal reveal-delay-1">Every discipline sharpened to deliver premium visual stories.</p>
+
+  <div class="skills-list">
+    <!-- Motion Graphics -->
+    <div class="skill-row reveal">
+      <div class="skill-row-bg" style="width: 95%;"></div>
+      <div class="skill-row-content">
+        <div class="skill-num">01</div>
+        <div class="skill-main">
+          <div class="skill-name">Motion Graphics</div>
+          <div class="skill-desc">Frame-by-frame animated titles, lower thirds, transitions and intros that elevate any production.</div>
+        </div>
+        <div class="skill-svg-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 12 12 17 22 12"></polyline><polyline points="2 17 12 22 22 17"></polyline></svg>
+        </div>
+      </div>
+    </div>
+    
+    <!-- VFX -->
+    <div class="skill-row reveal reveal-delay-1">
+      <div class="skill-row-bg" style="width: 82%;"></div>
+      <div class="skill-row-content">
+        <div class="skill-num">02</div>
+        <div class="skill-main">
+          <div class="skill-name">VFX & Compositing</div>
+          <div class="skill-desc">Visual effects compositing — particle systems, green screen keying, and scene enhancement.</div>
+        </div>
+        <div class="skill-svg-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color Grading -->
+    <div class="skill-row reveal reveal-delay-2">
+      <div class="skill-row-bg" style="width: 90%;"></div>
+      <div class="skill-row-content">
+        <div class="skill-num">03</div>
+        <div class="skill-main">
+          <div class="skill-name">Color Grading</div>
+          <div class="skill-desc">Cinematic color work — from raw log footage to polished, consistent grade across any project.</div>
+        </div>
+        <div class="skill-svg-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Editing -->
+    <div class="skill-row reveal reveal-delay-3">
+      <div class="skill-row-bg" style="width: 98%;"></div>
+      <div class="skill-row-content">
+        <div class="skill-num">04</div>
+        <div class="skill-main">
+          <div class="skill-name">Video Editing</div>
+          <div class="skill-desc">Story-driven cuts with perfect pacing, sync, and rhythm. Reels, docs, TVCs and more.</div>
+        </div>
+        <div class="skill-svg-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo Design -->
+    <div class="skill-row reveal reveal-delay-1">
+      <div class="skill-row-bg" style="width: 85%;"></div>
+      <div class="skill-row-content">
+        <div class="skill-num">05</div>
+        <div class="skill-main">
+          <div class="skill-name">Logo Design</div>
+          <div class="skill-desc">Clean, memorable logo mark and full branding packages for companies and creators.</div>
+        </div>
+        <div class="skill-svg-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Audio Design -->
+    <div class="skill-row reveal reveal-delay-2">
+      <div class="skill-row-bg" style="width: 80%;"></div>
+      <div class="skill-row-content">
+        <div class="skill-num">06</div>
+        <div class="skill-main">
+          <div class="skill-name">Audio Design</div>
+          <div class="skill-desc">Sound mixing, audio cleanup, SFX layering, and music sync for compelling audio experience.</div>
+        </div>
+        <div class="skill-svg-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 7v10M22 10v4M7 9v6M2 11v2"></path></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Content -->
+    <div class="skill-row reveal reveal-delay-3">
+      <div class="skill-row-bg" style="width: 96%;"></div>
+      <div class="skill-row-content">
+        <div class="skill-num">07</div>
+        <div class="skill-main">
+          <div class="skill-name">Social Content</div>
+          <div class="skill-desc">Short-form vertical content built for Instagram Reels, YouTube Shorts, and TikTok.</div>
+        </div>
+        <div class="skill-svg-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Podcast Visuals -->
+    <div class="skill-row reveal reveal-delay-4">
+      <div class="skill-row-bg" style="width: 88%;"></div>
+      <div class="skill-row-content">
+        <div class="skill-num">08</div>
+        <div class="skill-main">
+          <div class="skill-name">Podcast Visuals</div>
+          <div class="skill-desc">Thumbnails, animated openers, episode graphics, and audiogram visualizers.</div>
+        </div>
+        <div class="skill-svg-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SOFTWARE ===================== -->
+<section id="software">
+  <div class="section-label">Toolset</div>
+  <div class="section-title reveal">Powered by<br /><span>Industry Tools</span></div>
+  <p class="section-sub reveal reveal-delay-1">Professional-grade software mastered for high-end deliverables.</p>
+
+  <div class="software-grid">
+    <div class="software-card reveal" style="--sw-theme: #9999FF; --sw-bg: #00005C; --sw-shadow: rgba(153,153,255,0.4);">
+      <div class="sw-logo-box">Pr</div>
+      <div class="sw-name">Premiere Pro</div>
+      <div class="sw-level">Expert · 1+ Years</div>
+    </div>
+    <div class="software-card reveal reveal-delay-1" style="--sw-theme: #9999FF; --sw-bg: #00005C; --sw-shadow: rgba(153,153,255,0.4);">
+      <div class="sw-logo-box">Ae</div>
+      <div class="sw-name">After Effects</div>
+      <div class="sw-level">Advanced · Motion</div>
+    </div>
+    <div class="software-card reveal reveal-delay-2" style="--sw-theme: #31A8FF; --sw-bg: #001E36; --sw-shadow: rgba(49,168,255,0.4);">
+      <div class="sw-logo-box">Ps</div>
+      <div class="sw-name">Photoshop</div>
+      <div class="sw-level">Proficient · Design</div>
+    </div>
+    <div class="software-card reveal reveal-delay-3" style="--sw-theme: #FF9A00; --sw-bg: #330000; --sw-shadow: rgba(255,154,0,0.4);">
+      <div class="sw-logo-box">Ai</div>
+      <div class="sw-name">Illustrator</div>
+      <div class="sw-level">Proficient · Vectors</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section id="testimonials">
+  <div class="section-label">Client Words</div>
+  <div class="section-title reveal">Voices of<br /><span>Satisfied Clients</span></div>
+  <p class="section-sub reveal reveal-delay-1">Real feedback from real creators and brands I've worked with.</p>
+
+  <div class="testimonials-track">
+    <div class="testimonials-slider" id="testiSlider">
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Omkar transformed our raw footage into a cinematic masterpiece. The motion graphics were absolutely on point. Will definitely work again!"</div>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&q=80" alt="Client" />
+          <div>
+            <div class="testi-name">Rahul Mehta</div>
+            <div class="testi-role">YouTuber · Tech Niche</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Our brand TVC came out far better than expected. Omkar understood our vision immediately and delivered with stunning quality and speed."</div>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=100&q=80" alt="Client" />
+          <div>
+            <div class="testi-name">Priya Sharma</div>
+            <div class="testi-role">Brand Manager · StartupCo</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"The podcast intro animation he made is something I get compliments on every single episode. Genuinely talented with a great eye for detail."</div>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Client" />
+          <div>
+            <div class="testi-name">Ananya Verma</div>
+            <div class="testi-role">Podcast Host · LifeVibes</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Professional, creative, and extremely fast turnaround. The color grading on our product video was world-class. Highly recommended."</div>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Client" />
+          <div>
+            <div class="testi-name">Arjun Kapoor</div>
+            <div class="testi-role">Founder · VisionBrands</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate for seamless loop -->
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Omkar transformed our raw footage into a cinematic masterpiece. The motion graphics were absolutely on point. Will definitely work again!"</div>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&q=80" alt="Client" />
+          <div>
+            <div class="testi-name">Rahul Mehta</div>
+            <div class="testi-role">YouTuber · Tech Niche</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Our brand TVC came out far better than expected. Omkar understood our vision immediately and delivered with stunning quality and speed."</div>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=100&q=80" alt="Client" />
+          <div>
+            <div class="testi-name">Priya Sharma</div>
+            <div class="testi-role">Brand Manager · StartupCo</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"The podcast intro animation he made is something I get compliments on every single episode. Genuinely talented with a great eye for detail."</div>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Client" />
+          <div>
+            <div class="testi-name">Ananya Verma</div>
+            <div class="testi-role">Podcast Host · LifeVibes</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-text">"Professional, creative, and extremely fast turnaround. The color grading on our product video was world-class. Highly recommended."</div>
+        <div class="testi-author">
+          <img class="testi-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Client" />
+          <div>
+            <div class="testi-name">Arjun Kapoor</div>
+            <div class="testi-role">Founder · VisionBrands</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONNECT ===================== -->
+<section id="connect">
+  <div class="connect-orb orb1"></div>
+  <div class="connect-orb orb2"></div>
+  <div class="connect-content">
+    <div class="section-label" style="justify-content:center">Let's Create</div>
+    <h2 class="connect-title reveal">Got a Project<br />in <span>Mind?</span></h2>
+    <p class="connect-sub reveal reveal-delay-1">Let's bring your vision to life with stunning visuals. I'm available now and excited to work on your next big thing.</p>
+    <div class="connect-actions reveal reveal-delay-2">
+      <a href="https://api.whatsapp.com/send/?phone=919867315087&text&type=phone_number&app_absent=0" class="btn-primary">Send a Message →</a>
+      <a href="https://www.behance.net/omkarchaurasia1" target="_blank" class="btn-secondary">Mail Me</a>
+    </div>
+    <div class="connect-socials reveal reveal-delay-3">
+      <a href="#" class="social-link" title="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+     
+      <a href="#" class="social-link" title="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <a href="#" class="social-link" title="YouTube">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 0 0 1.95-1.97A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="footer-logo">Omkar <span>Chaurasia</span></div>
+  <div class="footer-copy">© 2025–2026 · All Rights Reserved</div>
+  <div class="footer-links">
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#connect">Contact</a>
+  </div>
+</footer>
+
+<!-- ===================== JS ===================== -->
+<script src="script.js"></script>
+</body>
+</html>
+
